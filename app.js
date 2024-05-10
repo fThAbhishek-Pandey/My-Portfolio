@@ -22,7 +22,7 @@
 //     if (index < textArr.length) {
 //         if (textIndex < textArr[index].length) {
 //             textElement.innerHTML += textArr[index].charAt(textIndex);
-//             textIndex++;
+//               textIndex++;
 //             setTimeout(typeWriter, speed);
 //         } else {
 //             index++;
@@ -37,7 +37,7 @@
 // Start the typing effect
  //typeWriter();
 // leetcode data retriving and sending to html
-let easyfe =document.getElementById('easy');
+  let easyfe =document.getElementById('easy');
 let mediumfe =document.querySelector('#medium');
 let hardfe =document.querySelector('#hard');
 let totalfe=document.querySelector('#total');
