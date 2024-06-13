@@ -990,3 +990,10 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+/* cart manupalating */
+.github-site{
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: larger;
+}

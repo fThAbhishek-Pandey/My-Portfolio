@@ -1,7 +1,5 @@
 import leetcodeProblem from "./component/leetcodeProblem.js";
-import createCarts from "./component/CarsString.js";
-import practicum from "./component/practicumData.js";
-import setCart from "./component/setCarts.js";
+import practicumfunc from "./component/practicum/practicumFunc.js";
 function switchBTN() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -18,8 +16,6 @@ function switchBTN() {
  function start (){
     switchBTN();
     leetcodeProblem();
-    const datas = practicum();
-    const practicumCart = createCarts(datas);
-    setCart(".project-Container",practicumCart);
+    practicumfunc();
  }
 window.addEventListener('DOMContentLoaded',start);
