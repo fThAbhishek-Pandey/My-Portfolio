@@ -1,5 +1,6 @@
 import leetcodeProblem from "./component/leetcodeProblem.js";
 import practicumfunc from "./component/practicum/practicumFunc.js";
+import experieceFunc from "./component/experience/experenceFunc.js";
 function switchBTN() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -17,5 +18,6 @@ function switchBTN() {
     switchBTN();
     leetcodeProblem();
     practicumfunc();
+    experieceFunc();
  }
 window.addEventListener('DOMContentLoaded',start);
