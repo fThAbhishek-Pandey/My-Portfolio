@@ -1,6 +1,9 @@
 import leetcodeProblem from "./component/leetcodeProblem.js";
 import practicumfunc from "./component/practicum/practicumFunc.js";
 import experieceFunc from "./component/experience/experenceFunc.js";
+import projectfunc from "./component/Project/projectFunc.js";
+import blogfunc from "./component/Blogs/blogsFunc.js";
+import certificatefunc from "./component/Certification/certificateFunc.js";
 function switchBTN() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -19,5 +22,8 @@ function switchBTN() {
     leetcodeProblem();
     practicumfunc();
     experieceFunc();
+    projectfunc();
+    blogfunc();
+    certificatefunc();
  }
 window.addEventListener('DOMContentLoaded',start);
