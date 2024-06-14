@@ -3,7 +3,7 @@ const projectData = [
         id :2,
         title:" Credit Card Risk Modeling",
         tool: [""],
-        imgURL :"",
+        imgURL :"./img/eps prediction.jpg",
         repoLink:"https://github.com/fThAbhishek-Pandey/eps-prediction",
         visitLink:"https://fth-eps-prediction.onrender.com/",
         descrp:" Using machine learning techniques for the assessment of credit risk within financial institutions.",
