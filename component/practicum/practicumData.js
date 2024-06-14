@@ -199,12 +199,12 @@ const practicumData = [
     },
     {
         id :4,
-        name: "Navbar",
-        learned :["humberge","toggle"],
+        name: "BMI Calculater",
+        learned :["DOM","Event"],
         skill :["javascript","html","css"],
-        imgURL :"./img/04 nav bar.gif",
-        repoLink :"",
-        visitLive:"",
+        imgURL :"./img/BMI Calculater.gif",
+        repoLink :"https://github.com/fThAbhishek-Pandey/BMI-Culculater",
+        visitLive:"https://fthabhishek-pandey.github.io/BMI-Culculater/",
         desp : "",
 
     },
