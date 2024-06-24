@@ -9,7 +9,6 @@ const practicumData = [
         visitLive:"https://fthabhishek-pandey.github.io/Tic-Tac-Tow/",
         desp : "",
      },
-   
     {  
         id :33,
         name: "AppWeave Shopy",
@@ -20,7 +19,6 @@ const practicumData = [
         visitLive:"https://fthabhishek-pandey.github.io/Appweave-Shopy/",
         desp : "",
      },
-    
     {  
         id :32,
         name: "Password Genrater",
@@ -41,7 +39,6 @@ const practicumData = [
         visitLive:"https://fthabhishek-pandey.github.io/birthday-Reminder/",
         desp : "",
      },
-    
     {  
         id :28,
         name: "Portfolio",
