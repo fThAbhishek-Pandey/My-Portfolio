@@ -1,5 +1,48 @@
 const practicumData = [
     {  
+        id :34,
+        name: "Tic Tac Toe",
+        learned :[""],
+        skill :["React"],
+        imgURL :"./img/tic-tac-toe.gif",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Tic-Tac-Tow",
+        visitLive:"https://fthabhishek-pandey.github.io/Tic-Tac-Tow/",
+        desp : "",
+     },
+   
+    {  
+        id :33,
+        name: "AppWeave Shopy",
+        learned :["Hooks","Props","JSX","HOFs"],
+        skill :["React"],
+        imgURL :"./img/AppWeaveShopy.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Appweave-Shopy",
+        visitLive:"https://fthabhishek-pandey.github.io/Appweave-Shopy/",
+        desp : "",
+     },
+    
+    {  
+        id :32,
+        name: "Password Genrater",
+        learned :["useEffect","",""],
+        skill :["React"],
+        imgURL :"./img/PasswardGenrater.gif",
+        repoLink :"https://github.com/fThAbhishek-Pandey/PasswordGenerator",
+        visitLive:"https://fthabhishek-pandey.github.io/PasswordGenerator/",
+        desp : "",
+     },
+    {  
+        id :31,
+        name: "BirthDay Reminder",
+        learned :["useState","JSX"],
+        skill :["React"],
+        imgURL :"./img/birthdayReminder.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/birthday-Reminder",
+        visitLive:"https://fthabhishek-pandey.github.io/birthday-Reminder/",
+        desp : "",
+     },
+    
+    {  
         id :28,
         name: "Portfolio",
         learned :["","JS MODULE","HOFs"],
