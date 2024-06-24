@@ -1,5 +1,69 @@
 const practicumData = [
-   
+    {  
+        id :28,
+        name: "Portfolio",
+        learned :["","JS MODULE","HOFs"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/portfolio.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/My-Portfolio",
+        visitLive:"https://fthabhishek-pandey.github.io/My-Portfolio/",
+        desp : "",
+     },   
+    {
+        id :27,
+        name: "Pagination",
+        learned :["API Fetching","JS MODULE","HOFs"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/28 pagination.gif",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Pagination",
+        visitLive:"https://fthabhishek-pandey.github.io/Pagination/",
+        desp : "",
+     },
+    {
+        id :26,
+        name: "Sorting Algo Visulization",
+        learned :["API Fetching","JS MODULE","HOFs"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/Sort_visulization.gif",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Sorting-Algo-Visualizer",
+        visitLive:"https://fthabhishek-pandey.github.io/Sorting-Algo-Visualizer/",
+        desp : "",
+
+    },
+    
+    {
+        id :25,
+        name: "AppWeave Shop",
+        learned :["filter","Adding Card","HOFs","calculating Prize"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/Appweave Shopy.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Appweave-Shop",
+        visitLive:"https://fthabhishek-pandey.github.io/Appweave-Shop/",
+        desp : "",
+
+    }, 
+    {
+        id :24,
+        name: "Wikipedia",
+        learned :["API Fetching","Search on API","JS MODULE","HOFs"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/wiki pedia.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Random-User-Generater",
+        visitLive:"https://fthabhishek-pandey.github.io/wikipedia/",
+        desp : "",
+
+    },
+    {
+        id :23,
+        name: "thecocktaildb API",
+        learned :["API Fetching","JS MODULE","HOFs"],
+        skill :["javascript","html","css"],
+        imgURL :"./img/cocktail.png",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Random-User-Generater",
+        visitLive:"https://fthabhishek-pandey.github.io/ThecockTails/",
+        desp : "",
+
+    },
     {
         id :22,
         name: "Random User API",
@@ -136,7 +200,7 @@ const practicumData = [
         name: "Scroll me",
         learned :["Back To Top","Scroll Event"],
         skill :["javascript","html","css"],
-        imgURL :"./img/11 scroll project.gif",
+        imgURL :"./img/11 scroll projects.gif",
         repoLink :"https://github.com/fThAbhishek-Pandey/Scroll-Project",
         visitLive:"https://fthabhishek-pandey.github.io/Scroll-Project/",
         desp : "",
@@ -158,7 +222,7 @@ const practicumData = [
         name: "Menu",
         learned :["filter","HTML manipulating by DOM"],
         skill :["javascript","html","css"],
-        imgURL :"./img/08 menu.gif",
+        imgURL :"./img/08 menus.gif",
         repoLink :"https://github.com/fThAbhishek-Pandey/coffee-Table-cart",
         visitLive:"https://fthabhishek-pandey.github.io/coffee-Table-cart/",
         desp : "",

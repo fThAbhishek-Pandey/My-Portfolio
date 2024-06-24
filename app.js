@@ -4,6 +4,7 @@ import experieceFunc from "./component/experience/experenceFunc.js";
 import projectfunc from "./component/Project/projectFunc.js";
 import blogfunc from "./component/Blogs/blogsFunc.js";
 import certificatefunc from "./component/Certification/certificateFunc.js";
+import slider from "./component/slider/sliderSet.js";
 function switchBTN() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -25,5 +26,6 @@ function switchBTN() {
     projectfunc();
     blogfunc();
     certificatefunc();
+    // slider();
  }
 window.addEventListener('DOMContentLoaded',start);
