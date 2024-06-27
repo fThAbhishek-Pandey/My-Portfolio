@@ -6,7 +6,7 @@ const projectData = [
     imgURL :"./img/groot.png",
     repoLink:"https://github.com/fThAbhishek-Pandey/Groot-my-VCS",
     visitLink:"https://github.com/fThAbhishek-Pandey/Groot-my-VCS",
-    descrp:"Using machine learning techniques for the assessment of credit risk within financial institutions.",
+    descrp: "<ul><li>Project creation and initialization .</li> <li>Version control integrationTask management and tracking .<li>  <li>Collaboration and team communicationDocumentation.<li>  <li>generationCode review and feedback <li></ul>",
 },
   {
         id :1,
@@ -15,7 +15,7 @@ const projectData = [
         imgURL :"./img/eps prediction.jpg",
         repoLink:"https://github.com/fThAbhishek-Pandey/eps-prediction",
         visitLink:"https://fth-eps-prediction.onrender.com/",
-        descrp:"<ul><li>Project creation and initialization</li> <li>Version control integrationTask management and tracking<li>  <li>Collaboration and team communicationDocumentation<li>  <li>generationCode review and feedback <li></ul>",
+        descrp: "Using machine learning techniques for the assessment of credit risk within financial institutions.",
     },
      
 
