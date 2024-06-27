@@ -42,7 +42,7 @@ const practicumData = [
      {  
         id :30,
         name: "Groot My Own VCS",
-        learned :["ES6 Concepts","Module","HOFs"],
+        learned :["git Internaly Used Algoritm","Data Structure"],
         skill :["javascript","html","css"],
         imgURL :"./img/groot.png",
         repoLink :"https://github.com/fThAbhishek-Pandey/ES6-Slider",
