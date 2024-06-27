@@ -45,8 +45,8 @@ const practicumData = [
         learned :["git Internaly Used Algoritm","Data Structure"],
         skill :["javascript","html","css"],
         imgURL :"./img/groot.png",
-        repoLink :"https://github.com/fThAbhishek-Pandey/ES6-Slider",
-        visitLive:"https://fthabhishek-pandey.github.io/ES6-Slider/",
+        repoLink :"https://github.com/fThAbhishek-Pandey/Groot-my-VCS",
+        visitLive:"https://github.com/fThAbhishek-Pandey/Groot-my-VCS",
         desp : "",
      },
      {  
