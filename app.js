@@ -4,7 +4,10 @@ import experieceFunc from "./component/experience/experenceFunc.js";
 import projectfunc from "./component/Project/projectFunc.js";
 import blogfunc from "./component/Blogs/blogsFunc.js";
 import certificatefunc from "./component/Certification/certificateFunc.js";
-import slider from "./component/slider/sliderSet.js";
+// import slider from "./component/slider/sliderSet.js";
+// import startSlider from "./component/review/slider.js";
+import setContact from "./component/Contact/setContact.js";
+import SetResume from "./component/Resume/SetResume.js";
 function switchBTN() {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -27,5 +30,8 @@ function switchBTN() {
     blogfunc();
     certificatefunc();
     // slider();
+    // startSlider();
+    setContact();
+    SetResume();
  }
 window.addEventListener('DOMContentLoaded',start);

@@ -55,6 +55,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  --fixed-width: 620px;
 }
 
 body {
@@ -997,3 +998,144 @@ section {
   justify-content: space-around;
   font-size: larger;
 }
+
+/* review style  */
+/* set buttons */
+.reviews {
+  margin-bottom: 4rem;
+}
+.reviews h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews span {
+  font-size: 0.85em;
+  color: var(--clr-primary-5);
+  margin-right: 1rem;
+}
+.Review-img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid var(--clr-grey-7);
+  background: var(--clr-white);
+  padding: 0.25rem;
+  border-radius: 50%;
+  box-shadow: var(--dark-shadow);
+  margin :2rem auto ;
+  
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--clr-primary-5);
+  letter-spacing: var(--spacing);
+  margin: 0.5rem 0;
+}
+ .title {
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+} 
+ .text {
+  color: var(--clr-grey-5);
+  line-height: 1.8;
+  max-width: 35em;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.quote-icon {
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: var(--clr-primary-5);
+} 
+.Reviewbtn {
+  position: relative;
+  top: 175px;
+  /* background: var(--color-grey-5); */
+  background: #fff;
+  padding: 20000px;
+  /* color: var(--clr-white); */
+  /* padding: 0.25rem 0.35rem; */
+  border-radius: 0.25rem;
+  border: transparent;
+  cursor: pointer;
+   z-index: 999;
+}
+.Reviewnext-btn {
+  right: -0.5rem;
+}
+.Reviewprev-btn {
+  left: -0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .Reviewnext-btn {
+    right: -5rem;
+  }
+  .Reviewprev-btn {
+    left: -5rem;
+  }
+  .Reviewbtn {
+    font-size: 1.3rem;
+    padding: 0.35rem 0.5rem;
+  }
+  .quote-icon {
+    font-size: 4rem;
+  }
+} 
+
+/* MORE CSS FOR JS */
+.review-sec{
+  display: flex;
+  
+  background-color: rgb(205, 219, 208);
+  justify-content: center;
+  margin-bottom: 6rem;
+  width: 85vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 1rem 0;
+  /* set relative for buttons */
+  /* position: relative; */
+}
+.slide-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* position: relative; */
+  top: 15px;
+  height: 500px;
+  overflow: hidden;
+  background-color: red;
+}
+
+ .Reviewslide {
+  position: relative;
+  /* width: 500px; */
+  height: 100%; 
+  transition : all 0.3s ease-in-out; 
+  opacity: 0; 
+  background-color: #000;
+  
+ 
+}   
+ .Reviewslide.Reviewactive {
+  opacity: 1;
+  transform: translateX(0);
+}
+.Reviewslide.Reviewnext {
+  transform: translateX(100%);
+}
+.Reviewslide.Reviewlast {
+  transform: translateX(-100%);
+} 
